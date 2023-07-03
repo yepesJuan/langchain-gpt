@@ -1,0 +1,79 @@
+# Machine Learning
+
+## [Rekognition](https://aws.amazon.com/rekognition/)
+
+Service that enables object, text, scene, and facial analysis in images and videos. 
+
+It offers capabilities such as facial analysis and search, allowing user verification, people counting, and the creation of databases of familiar faces or comparison against celebrities. 
+
+It finds applications in labeling, content moderation, text detection, face detection and analysis (including gender, age range, and emotions), face search and verification, celebrity recognition, and pathing for sports game analysis.
+
+## Transcribe
+
+Speech-to-text service automatically converts spoken language into written text using automatic speech recognition (ASR).
+
+ It employs deep learning techniques for fast and accurate transcription and includes features like Redaction for removing Personally Identifiable Information (PII) and Automatic Language Identification for multilingual audio. 
+
+It finds applications in transcribing customer service calls, automating closed captioning and subtitling, and generating metadata for media assets to create a searchable archive.
+
+## Polly
+
+Turn text into lifelike speech using deep learning. Allowing you to create apps that talk. In dfiferent languages
+
+## Translate
+
+A translation service that provides fast and accurate translation between different languages for localize concent (websites and application) for international users. Easy to translate large volumes of text efficiently.
+
+## Lex & Connect
+
+LEX: automatic speech recognition (ASR) for speech-to-text conversion and natural language understanding to identify text intent. It facilitates the development of chatbots and call center bots. (what powers Alexa)
+
+CONNECT: cloud-based virtual contact center with call management, contact flows, and integration capabilities (CRM), offering a cost-effective alternative to traditional contact center solutions.
+
+![Screenshot 2023-06-25 at 17.34.36.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df8f7c46-1b44-4b93-8b7a-aec5424610f7/Screenshot_2023-06-25_at_17.34.36.png)
+
+## Comprehend
+
+Managed and serverless natural language processing (NLP) service that utilizes machine learning to extract insights and relationships from text.
+
+It provides language detection, keyphrase extraction, entity recognition, sentiment analysis, tokenization, part-of-speech tagging, and automatacally organizes a collection of text files by topic. 
+
+Use cases: analyzing customer interactions(emails) to identify factors influencing positive or negative experiences and automatically organizing text files into topic groups for efficient management.
+
+## SageMaker
+
+Managed service that simplifies the process of building machine learning models for developers and data scientists by providing an integrated environment. It eliminates the complexities of provisioning servers and offers a streamlined workflow for tasks such as training models, deploying them to production, and making predictions, making it as simple as predicting your exam score.
+
+## Forecast
+
+Managed service that leverages machine learning to provide highly accurate forecasts. It enables businesses to predict future outcomes, such as sales of a raincoat, with 50% more accuracy compared to traditional data analysis methods, while drastically reducing the time required for forecasting from months to hours. Use cases: including product demand planning, financial planning, resource planning, and more.
+
+## Kendra
+
+Managed document search service powered by machine learning. It extracts answers from various document formats (text, PDFs, HTML, PowerPoint, and MS Word, FAQs) and offers natural language search capabilities. With the ability to learn from user interactions and feedback through incremental learning, it promotes preferred results. Additionally, users can manually fine-tune search results based on factors like data importance, freshness, and customization.
+
+## Personalized
+
+Managed machine learning service designed to build applications with real-time personalized recommendations. It enables personalized product recommendations, re-ranking, and customized direct marketing, leveraging the same technology used by [Amazon.com](http://amazon.com/). It seamlessly integrates into existing websites, applications, SMS, email marketing systems, and more, allowing businesses to implement personalized recommendations in a matter of days without the need to build, train, and deploy their own ML solutions. It finds applications in various industries such as retail stores, media, and entertainment.
+
+## Textract
+
+service that employs AI and ML to automatically extract text, handwriting, and data from scanned documents, including forms and tables. It can read and process various document types such as PDFs and images, making it suitable for industries like financial services (invoices, financial reports), healthcare (medical records, insurance claims), and the public sector (tax forms, ID documents, passports).
+
+---
+
+## Summary
+
+- Rekognition: Face detection, labeling, and celebrity recognition.
+- Transcribe: Convert audio to text, useful for generating subtitles.
+- Polly: Convert text to audio, providing text-to-speech capabilities.
+- Translate: Perform translations between different languages.
+- Lex: Build conversational bots, including chatbots.
+- Connect: Cloud contact center solution.
+
+- Comprehend: Perform natural language processing tasks.
+- SageMaker: Machine learning platform for developers and data scientists.
+- Forecast: Build highly accurate forecasts.
+- Kendra: ML-powered search engine for document search.
+- Personalize: Real-time personalized recommendations.
+- Textract: Extract text and data from scanned documents.
